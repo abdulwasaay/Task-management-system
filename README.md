@@ -4,6 +4,10 @@ NOTE: Before using this application you have to run a command in root foolder of
 THis starts my server and don't close the terminal otherwise it won't
 works
 
+Open another terminal and execute the command:
+#      npm i react
+to reinstall my dependencies.
+
  And If you want to execute my frontend use: 
 #      npm start  
 
