@@ -1,0 +1,56 @@
+.AllusersContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 10px 0px 10px;
+}
+
+.Allusers-childContainer{
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    box-shadow: 1px 1px 2px gray;
+    padding-left: 30px;
+}
+
+.Allusers-childContainer div{
+    display: flex;
+    margin-top: 10px;
+}
+
+.Allusers-childContainer p{
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Allusers-childContainer h3{
+    margin-left: 20px;
+    color: Gray;
+    font-family: sans-serif;
+    margin-top: 1px;
+}
+
+.heading1{
+    text-align: center;
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(168, 168, 168);
+    padding: 10px 0px 10px 0px;
+}
+
+@media (max-width: 852px){
+    .Allusers-childContainer{
+        width: 45%;
+    }
+}
+
+@media (max-width: 622px){
+    .Allusers-childContainer{
+        width: 90%;
+    }
+}

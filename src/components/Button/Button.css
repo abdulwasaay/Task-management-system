@@ -1,0 +1,26 @@
+.button{
+    width: 350px;
+    font-size: 15px;
+    padding: 10px 0px 10px 0px;
+    margin-top: 20px;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+div.button-container{
+    text-align: center;
+}
+@media (max-width: 444px){
+    .button{
+        width: 330px;
+    }
+}
+
+@media (max-width: 405px){
+    .button{
+        width: 87%;
+    }
+}

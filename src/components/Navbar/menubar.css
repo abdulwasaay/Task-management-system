@@ -1,0 +1,58 @@
+.menubar-container{
+    background-color: #000524;
+    width: 200px;
+    height: 340px;
+    position: absolute;
+    right: 0;
+    top: -292px;
+    z-index: 1;
+}
+
+ .openMenubar{
+    top: 80px;
+    transition: 0.5s ease-out;
+}
+
+.closemenubar{
+    top: -292px;
+    transition: 0.5s ease-out;
+}
+
+.menubar-container nav{
+    margin-top: 30px;
+}
+
+.menubar-container nav button{
+    outline: none;
+    border: none;
+    background-color: #000524;
+    color: rgb(175, 175, 175);
+    font-size: 17px;
+}
+
+.close{
+    text-align: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+.connections button{
+    padding-left: 0;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.connections button:hover{
+    background-color: blue;
+    padding-bottom: 7px;
+}
+
+.icon{
+    color: rgb(175, 175, 175);
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+}

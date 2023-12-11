@@ -1,0 +1,83 @@
+
+
+.childTaskContainer{
+    width: 400px;
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 4px gray;
+    margin-left: 5px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.childTaskContainer form{
+    text-align: center;
+}
+
+.inputsearch{
+    width: 340px;
+    height: auto;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0.1px solid;
+    padding: 10px;
+    overflow: hidden;
+    outline-color: blue;
+}
+
+.childTaskContainer h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    padding-top: 10px;
+}
+
+#status{
+    width: 110px;
+    margin-top: 15px;
+    padding: 5px 0px 5px 5px;
+    border: 0.1px solid;
+    outline-color: blue;
+    font-size: 15px;
+}
+
+#date{
+    width: 110px;
+    margin-top: 15px;
+    padding: 5px 0px 5px 5px;
+    border: 0.1px solid;
+    outline-color: blue;
+    font-size: 15px;
+}
+
+@media (max-width: 444px){
+    .childTaskContainer{
+        width: 370px;
+    }
+    .inputsearch{
+        width: 310px;
+    }
+}
+
+@media (max-width: 405px){
+    .childTaskContainer{
+        width: 80%;
+        height: auto;
+    }
+    .inputsearch{
+        width: 83%;
+    }
+}
+
+@media (max-width: 345px){
+    .childTaskContainer{
+        width: 80%;
+    }
+    .inputsearch{
+        width: 70%;
+    }
+}
